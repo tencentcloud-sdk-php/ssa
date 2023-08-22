@@ -20,18 +20,18 @@ use TencentCloud\Common\AbstractModel;
 /**
  * DescribeVulList请求参数结构体
  *
- * @method string getParams() 获取查询过滤参数
- * @method void setParams(string $Params) 设置查询过滤参数
+ * @method string getParams() 获取查询过滤参数:(json序列化的结果）
+ * @method void setParams(string $Params) 设置查询过滤参数:(json序列化的结果）
  */
 class DescribeVulListRequest extends AbstractModel
 {
     /**
-     * @var string 查询过滤参数
+     * @var string 查询过滤参数:(json序列化的结果）
      */
     public $Params;
 
     /**
-     * @param string $Params 查询过滤参数
+     * @param string $Params 查询过滤参数:(json序列化的结果）
      */
     function __construct()
     {
